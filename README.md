@@ -25,14 +25,3 @@ Essas classes herdam de uma classe abstrata chamada `Entrada`, que define a estr
 - Cálculo dinâmico do valor do ingresso com base no tipo da entrada.
 - Possibilidade de estender facilmente o sistema para incluir novos tipos de entradas.
 
-## 💡 Exemplo de Uso (futuro)
-
-```java
-Entrada ingresso1 = new EntradaInteira(5);
-Entrada ingresso2 = new EntradaMeia(10);
-Entrada ingresso3 = new EntradaProfessor(15);
-
-// Simulação do valor dos ingressos
-System.out.println(ingresso1.calcularValor());
-System.out.println(ingresso2.calcularValor());
-System.out.println(ingresso3.calcularValor());
